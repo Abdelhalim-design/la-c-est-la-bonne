@@ -4,28 +4,39 @@
   <meta charset="UTF-8">
   <title>Portfolio - Abdelhalim Zouggagh</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css"> <!-- Ton fichier CSS externe -->
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     .skills-container {
-        padding: 20px;
+      padding: 20px;
     }
     .skill {
-        margin-bottom: 15px;
+      margin-bottom: 15px;
     }
     label {
-        display: block;
-        margin-bottom: 5px;
+      display: block;
+      margin-bottom: 5px;
     }
     progress {
-        width: 100%;
-        height: 20px;
+      width: 100%;
+      height: 20px;
     }
     #map {
-        width: 100%;
-        height: 200px;
-        margin-top: 20px;
-        border-radius: 8px;
+      width: 100%;
+      height: 200px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav li {
+      margin-bottom: 5px;
+    }
+    nav a {
+      color: blue;
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -33,10 +44,36 @@
 
   <h1>🎓 Portfolio - Abdelhalim Zouggagh</h1>
   <p>Bienvenue sur mon portfolio !<br>
-  Vous y découvrirez mon parcours, mes compétences et mes projets réalisés en <strong>Génie Électrique et Informatique Industrielle (GEII)</strong>.</p>
+    Vous y découvrirez mon parcours, mes compétences et mes projets réalisés en <strong>Génie Électrique et Informatique Industrielle (GEII)</strong>.
+  </p>
+
+  <nav>
+    <h2>🌐 Navigation</h2>
+    <ul>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="Somaires.html">Sommaire</a></li>
+      <li><a href="projet_realiser.html">Projets réalisés</a></li>
+      <li><a href="projet_web.html">Projet Web</a></li>
+      <li><a href="Robot_suiveur.html">Robot suiveur</a></li>
+      <li><a href="Pompe.html">Station de pompage</a></li>
+      <li><a href="sae_drone.html">SAE Drone</a></li>
+      <li><a href="sae_snake.html">SAE Snake</a></li>
+      <li><a href="concevoir_moteur_drone.html">Concevoir moteur drone</a></li>
+      <li><a href="concevoir_robot_suiveur.html">Concevoir robot suiveur</a></li>
+      <li><a href="concevoir_sae_snake.html">Concevoir SAE Snake</a></li>
+      <li><a href="concevoir_station_pompage.html">Concevoir station de pompage</a></li>
+      <li><a href="verifier_moteur_drone.html">Vérifier moteur drone</a></li>
+      <li><a href="verifier_robot_suiveur.html">Vérifier robot suiveur</a></li>
+      <li><a href="verifier_sae_snake.html">Vérifier SAE Snake</a></li>
+      <li><a href="verifier_station_pompage.html">Vérifier station de pompage</a></li>
+      <li><a href="competence_aquise.html">Compétences acquises</a></li>
+      <li><a href="Semestre_1.html">Semestre 1</a></li>
+      <li><a href="Semestre_2.html">Semestre 2</a></li>
+      <li><a href="referenceciel.html">Référentiel</a></li>
+    </ul>
+  </nav>
 
   <h2>🏅 À Propos de Moi</h2>
-
   <p>
     🎓 <strong>Abdelhalim Zouggagh</strong><br>
     📍 <em>Étudiant en Génie Électrique et Informatique Industrielle (GEII) - IUT de Nîmes</em>
@@ -70,20 +107,20 @@
   <div class="skills-container">
     <h2>Mes Compétences</h2>
     <div class="skill">
-        <label for="html">HTML</label>
-        <progress id="html" value="90" max="100"></progress>
+      <label for="html">HTML</label>
+      <progress id="html" value="90" max="100"></progress>
     </div>
     <div class="skill">
-        <label for="css">CSS</label>
-        <progress id="css" value="85" max="100"></progress>
+      <label for="css">CSS</label>
+      <progress id="css" value="85" max="100"></progress>
     </div>
     <div class="skill">
-        <label for="js">JavaScript</label>
-        <progress id="js" value="75" max="100"></progress>
+      <label for="js">JavaScript</label>
+      <progress id="js" value="75" max="100"></progress>
     </div>
     <div class="skill">
-        <label for="python">Python</label>
-        <progress id="python" value="80" max="100"></progress>
+      <label for="python">Python</label>
+      <progress id="python" value="80" max="100"></progress>
     </div>
   </div>
 
